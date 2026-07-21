@@ -11,7 +11,7 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-    origin:"https://scaffoldai-1-client.onrender.com",
+    origin: "https://interviewiq-ai-frontend-client.onrender.com",
     credentials:true
 }))
 
