@@ -11,7 +11,7 @@ import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
-export const ServerUrl  = "https://scaffoldai.onrender.com"
+export const ServerUrl  = "https://interviewiq-ai-backend-server.onrender.com"
 
 axios.interceptors.request.use((config) => {
     const token = localStorage.getItem("token")
